@@ -17,7 +17,7 @@ st.sidebar.header('User Input Features')
 st.sidebar.markdown("""
 [Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
 """)
-
+<iframe width="550" height="400" src="https://prezi.com/view/zNLYYeBlfmVBWgSC1mk1/embed" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
 # Collects user input features into dataframe
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
 if uploaded_file is not None:
