@@ -17,7 +17,6 @@ st.sidebar.header('User Input Features')
 st.sidebar.markdown("""
 [Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
 """)
-<iframe width="550" height="400" src="https://prezi.com/view/zNLYYeBlfmVBWgSC1mk1" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
 # Collects user input features into dataframe
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
 if uploaded_file is not None:
@@ -78,3 +77,13 @@ st.write(penguins_species[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+import streamlit as st
+import streamlit.components.v1 as components
+
+# bootstrap 4 collapse example
+components.html(
+    """
+   <iframe width="550" height="400" src="https://prezi.com/view/zNLYYeBlfmVBWgSC1mk1/" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+    """,
+    height=600,width=600
+)
