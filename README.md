@@ -1,14 +1,11 @@
-# Penguins web app deployed on Heroku
+# E-commerce data viz
 
-Check out the YouTube video showing the development of this web app at https://www.youtube.com/watch?v=Eai1jaZrRDs
+E-commerce Data Visualization
+The purpose of this project is to do some analysis in an e-commerce dataset and do some conclusions. I am too using the google search product category name to do some predictions.
 
-The deployed web app is live at https://dp-penguins.herokuapp.com/
+The purpose of this project is to do some analysis in an e-commerce dataset and do some conclusions. I am too using the google search product category name to do some predictions.
 
-This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+The link of the github: https://github.com/PedrooFelix
 
-The web app was built in Python using the following libraries:
-* streamlit
-* pandas
-* numpy
-* scikit-learn
-* pickle
+Data obtained from the https://www.kaggle.com/olistbr/brazilian-ecommerce.
+
