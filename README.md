@@ -9,3 +9,4 @@ The link of the github: https://github.com/PedrooFelix
 
 Data obtained from the https://www.kaggle.com/olistbr/brazilian-ecommerce.
 
+The apresentation is at: https://prezi.com/view/kwWp6xVHQglHMmN55wwy/
